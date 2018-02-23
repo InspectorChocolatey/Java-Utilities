@@ -25,7 +25,7 @@ public class Agnosticism
 		}	
 		if(environmentIs64Bit()) 
 		{
-			System.out.println("64 bit: True");
+			System.out.println("\n64 bit: True");
 		}
 		else 
 		{
