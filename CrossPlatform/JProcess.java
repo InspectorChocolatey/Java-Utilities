@@ -9,6 +9,9 @@ package crestomathy;
  *	https://stackoverflow.com/questions/1319286/using-runtime-exec-in-java
  *	https://stackoverflow.com/questions/19005410/check-if-some-exe-program-is-running-on-the-windows
  *
+ *
+ *	[ ] Works on windows
+ *	[ ] Works on linux
  */
 
 public class JProcess 
