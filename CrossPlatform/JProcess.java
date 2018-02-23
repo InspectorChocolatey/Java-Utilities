@@ -20,8 +20,8 @@ import java.io.IOException;
  *
  *       Linux examples:
  *       
- *     java JProcess "Start" "";
- *     java JProcess "Stop" "";  
+ *     java JProcess "Start" "/opt/sublime_text/sublime_text";
+ *     java JProcess "Stop" "/opt/sublime_text/sublime_text";  
  *
  *
  *
