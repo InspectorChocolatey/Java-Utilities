@@ -8,10 +8,10 @@ import java.io.IOException;
  *	https://stackoverflow.com/questions/3634853/how-to-create-a-directory-in-java
  *	https://stackoverflow.com/questions/1319286/using-runtime-exec-in-java
  *	https://stackoverflow.com/questions/19005410/check-if-some-exe-program-is-running-on-the-windows
+ *	https://unix.stackexchange.com/questions/64623/kill-only-one-java-process
  *
- *
- *	[ ] Works on windows
- *	[ ] Works on linux
+ *	[ ] Works on windows:  processStart[X] processStop[X] processExists[]
+ *	[ ]   Works on linux:  processStart[X] processStop[ ] processExists[]
  *
  *	Windows examples:
  *
