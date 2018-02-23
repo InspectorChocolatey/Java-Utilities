@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cd "/$USER/Desktop/Java-Utilities";
+cd "/$USER/Desktop/Java-Utilities/CrossPlatform";
+javac *.java;
