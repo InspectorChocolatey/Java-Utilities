@@ -1,6 +1,3 @@
-import javax.swing.JOptionPane;
-import java.lang.*;
-
 /**
  * 
  * @author Nicholas
@@ -24,7 +21,7 @@ public class Msg
 	
 	    public static void infoBox(String infoMessage, String titleBar)
 	    {
-	        JOptionPane.showMessageDialog(null, infoMessage, "InfoBox: " + titleBar, JOptionPane.INFORMATION_MESSAGE);
+	    	javax.swing.JOptionPane.showMessageDialog(null, infoMessage, "InfoBox: " + titleBar, javax.swing.JOptionPane.INFORMATION_MESSAGE);
 	    }
 }
 
