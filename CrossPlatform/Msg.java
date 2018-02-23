@@ -1,6 +1,17 @@
 import javax.swing.JOptionPane;
 import java.lang.*;
 
+/**
+ * 
+ * @author Nicholas
+ *
+ *	References:
+ *
+ *	https://stackoverflow.com/questions/7080205/popup-message-boxes
+ *
+ */
+
+
 public class Msg 
 {
 		public static void main(java.lang.String[] ARGS) 
