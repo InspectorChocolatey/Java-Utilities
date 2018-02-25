@@ -1,4 +1,3 @@
-
 public class JAgnosticism 
 {
 	public static String operatingSystemName() 
@@ -12,24 +11,6 @@ public class JAgnosticism
 	    	java.net.InetAddress localMachine = java.net.InetAddress.getLocalHost();
 	    	return localMachine.getHostName();
 	}
-	
-	
-	
-//	public static String computername()
-//	{
-//		String hostname;
-//		try 
-//		{
-//			java.net.InetAddress address;
-//			address = java.net.InetAddress.getLocalHost();
-//			hostname = address.getHostName();
-//		}
-//		catch (java.net.UnknownHostException ex)
-//		{
-//			hostname = "Unknown";
-//		}
-//		return hostname;
-//	}
 	
 	public static String username() 
 	{
@@ -49,6 +30,4 @@ public class JAgnosticism
 		}
 		return is64bit;
 	}
-	
-	
 }
