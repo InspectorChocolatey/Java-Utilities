@@ -1,10 +1,9 @@
 public class JAgnosticism 
 {
-	public static String operatingSystemName() 
+	public static String operatingSystem() 
 	{
 		return System.getProperty("os.name");
 	}
-	
 	
 	public static String computername() throws java.net.UnknownHostException 
 	{
@@ -17,7 +16,7 @@ public class JAgnosticism
 	    	return System.getProperty("user.name");
 	}
 	
-	public static Boolean operatingSystemIs64Bit() 
+	public static Boolean systemIs64Bit() 
 	{
 		boolean is64bit = false;
 		if (System.getProperty("os.name").contains("Windows")) 
